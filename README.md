@@ -1,4 +1,3 @@
-> **Portfolio site:** Open [`index.html`](./index.html) locally, or deploy via GitHub Pages.
 
 <div align="center">
 
