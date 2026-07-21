@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vũ Thành Lộc — Activities: hackathons, competitions, and collaborative work." />
+  <title>Activities · Vũ Thành Lộc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">lokk<span class="accent">dev</span></a>
+    <nav aria-label="Primary">
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="activities.html" aria-current="page">Activities</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero activities-hero">
+      <p class="eyebrow">Outside the core projects</p>
+      <h1>Activities</h1>
+      <p class="hero-tagline">
+        Hackathons, competitions, and team work alongside day-to-day back-end and
+        AI engineering. Newest first.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="activity-grid" id="activity-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Building reliable back-end systems — from APIs to AI-powered solutions.</p>
+    <p class="footer-copy">&copy; 2026 Vũ Thành Lộc</p>
+  </footer>
+
+  <div class="modal-overlay" id="activity-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/activities.js"></script>
+</body>
+</html>
