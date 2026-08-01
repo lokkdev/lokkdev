@@ -1,5 +1,3 @@
-> **Portfolio site:** Open [`index.html`](./index.html) locally, or deploy via GitHub Pages.
-
 <div align="center">
 
 # Vũ Thành Lộc
@@ -21,7 +19,7 @@
 
 ## About
 
-Chuyển dịch có định hướng sang **AI Engineer**: xây dựng sản phẩm AI ứng dụng thực tế — **RAG**, **AI agent**, dự đoán bằng **ML** — trên nền tảng vững về thiết kế hệ thống, API và triển khai sản phẩm. Background in **Information Technology** từ Đại học Đại Nam, với thành tích nghiên cứu AI/IoT được giải thưởng cấp trường.
+Chuyển dịch có định hướng sang **AI Engineer**: xây dựng sản phẩm AI ứng dụng thực tế — **RAG**, **AI agent**, dự đoán bằng **ML** — trên nền tảng vững về thiết kế hệ thống, API và triển khai sản phẩm. Background in **Information Technology** với thành tích nghiên cứu AI/IoT được giải thưởng cấp trường.
 
 Mục tiêu: trở thành **AI Engineer / Applied AI full-stack** trong 1–2 năm tới, kết hợp kinh nghiệm hệ thống backend với chuyên môn RAG, knowledge graph và AI agents.
 
