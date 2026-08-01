@@ -4,7 +4,7 @@
 
 # Vũ Thành Lộc
 
-### Back-end Developer
+### AI Engineer
 
 📍 Hanoi <img src="https://raw.githubusercontent.com/pedromxavier/flag-badges/main/badges/VN.svg" alt="Vietnam" width="32" />
 
@@ -21,18 +21,18 @@
 
 ## About
 
-Back-end developer with hands-on experience building **RESTful APIs**, **database design**, and **production web systems** for Japanese and Vietnamese clients. Background in **Information Technology** from Đại học Đại Nam, with award-winning research in **AI/IoT** and **machine learning**.
+Chuyển dịch có định hướng sang **AI Engineer**: xây dựng sản phẩm AI ứng dụng thực tế — **RAG**, **AI agent**, dự đoán bằng **ML** — trên nền tảng vững về thiết kế hệ thống, API và triển khai sản phẩm. Background in **Information Technology** từ Đại học Đại Nam, với thành tích nghiên cứu AI/IoT được giải thưởng cấp trường.
 
-I focus on clean business logic, scalable architecture, and shipping reliable features—from landing pages and multi-tenant platforms to survey systems and job portals. Currently studying **AI in Action** at **VinUniversity**, building toward a long-term goal as an **AI engineer** while deepening system design and software craftsmanship.
+Mục tiêu: trở thành **AI Engineer / Applied AI full-stack** trong 1–2 năm tới, kết hợp kinh nghiệm hệ thống backend với chuyên môn RAG, knowledge graph và AI agents.
 
 ---
 
 ## Education
 
-**AI in Action Course** — [VinUniversity](https://vinuni.edu.vn/)  
+**AI in Action Course** — [VinUniversity](https://vinuni.edu.vn/)
 `Currently studying`
 
-**Bachelor of Information Technology** — [Dai Nam University](https://dainam.edu.vn/)  
+**Bachelor of Information Technology** — [Dai Nam University](https://dainam.edu.vn/)
 `Jun 2021 – May 2025`
 
 | Achievement | Year |
@@ -42,61 +42,74 @@ I focus on clean business logic, scalable architecture, and shipping reliable fe
 
 ---
 
-## Experience
+## AI Training & Activities
 
-### Back-end Developer — [Bekisoft](https://bekisoft.com/)
-`Dec 2024 – Dec 2025`
+**Chương trình đào tạo AI thực chiến Vingroup – Khoá 2**
+Đào tạo chuyên sâu về AI ứng dụng thực tế: thiết kế & xây dựng AI tools/agents, kỹ thuật xử lý dữ liệu, bảo mật AI (guardrails, phòng chống prompt injection). Sản phẩm tốt nghiệp: **MentorMind**. Kết quả: hiện đang thực tập tại Ban Chat AI, Vinsmart Future.
 
-Built and maintained multiple production projects for Japanese and domestic clients:
+**Vietnam AI Innovation Challenge (VAIC) 2026** — Leader/PM
+Dẫn dắt đội phát triển **LawVerse** — hệ thống RAG tra cứu & đánh giá rủi ro pháp lý cho ngân hàng.
 
-| Project | Highlights |
-|---------|------------|
-| **Ohouse** | Video social network — business logic, REST APIs, FE integration |
-| **Togismart** | Multi-tenant furniture shop cluster — maintenance, new features, deploy to dev |
-| **NEXS Ecosystem** | Large multi-site platform — DB design, REST APIs, client requirement alignment |
-| **Dofine** (JP) | WordPress site — FE implementation, module integration |
-| **Toshokan** (JP) | Survey data platform — backend base, APIs, load testing tool, export features, production deploy |
-| **Job Portal Web** (JP) | Job search system — bug fixes, new features per client feedback |
+**VTV AI Thực Chiến – Mùa 2 (2026)** — Leader/PM · Đang chờ kết quả
 
-**Key responsibilities:** Database design · RESTful API development · Business logic · Multi-tenant backend · Client communication · Dev/production deployment · Cross-team support (FE, QA)
+**Cross-Border AI Innovation Summit Hà Nội 2026** — Leader/PM · Đang chờ kết quả
 
 ---
 
-### Intern — TSO (Tinh Vân Software)
-`Mar 2024 – May 2024`
+## Featured AI Projects
 
-**Project:** ITC — Hanoi International Transport Corporation website
+### ⚖️ LawVerse — RAG hệ thống tra cứu & đánh giá rủi ro pháp lý (Ngân hàng SHB)
 
-- Analyzed business requirements and website features
-- Built landing page UI
+Vai trò: **Leader/PM** · **Stack:** FastAPI, React, RAG, Knowledge Graph, OpenAI/OpenRouter API
 
----
+- Xây dựng knowledge graph pháp luật (~1.465 văn bản) phục vụ trích dẫn tự động và chấm điểm rủi ro tuân thủ
+- Tự thiết kế và chạy bộ test toàn diện: 87/99 test case tự động PASS (unit, e2e qua Playwright, benchmark định lượng)
+- Benchmark định lượng: đạt **88.9%** độ chính xác trích dẫn so với 72.2% của RAG phẳng (18 câu hỏi tự động sinh)
+- Phát hiện và khắc phục lỗi thực tế trong production (chuẩn hoá ký tự Unicode gây gãy regex trích dẫn)
 
-## Projects
+### 🎓 MentorMind — Hệ thống cảnh báo sớm sinh viên có nguy cơ bỏ học
+
+**Stack:** Python, XGBoost, SHAP, LangChain/LangGraph, FastAPI, SQLAlchemy
+
+- Xây dựng model XGBoost dự đoán xác suất bỏ học từ chỉ số học tập & nhân khẩu học, xử lý được dữ liệu thiếu trường
+- Giải thích kết quả dự đoán bằng SHAP để hỗ trợ cố vấn học tập ra quyết định can thiệp sớm
+- Tích hợp chatbot tư vấn dùng LangChain/LangGraph, đóng gói triển khai bằng Docker
 
 ### 🔥 AI + IoT Smart Fire Warning System
 `Sep 2023 – Jun 2024` · 🥇 1st Prize — School Scientific Research 2023
 
-Real-time fire detection system combining **YOLOv8** computer vision with **IoT sensors**, plus web and mobile apps for monitoring and alerts.
+Real-time fire detection kết hợp **YOLOv8** computer vision với **IoT sensors**, cùng web và mobile app để giám sát và cảnh báo.
 
 **Stack:** Python · OpenCV · YOLOv8 · Arduino · Sensors · HTML · CSS · JavaScript · Flutter
-
-- Built fire detection model with YOLOv8 and integrated IoT sensors for real-time data collection
-- Developed website and mobile app to simulate a complete warning system
-- Sent continuous alerts to mobile app and email based on camera and sensor data
-
----
 
 ### 📊 Student Academic Status Prediction
 `Dec 2024 – Jun 2025`
 
-ML pipeline to predict IT students' academic status at Đại học Đại Nam — **98% accuracy** on the final model.
+ML pipeline dự đoán tình trạng học tập sinh viên IT tại Đại học Đại Nam — **98% accuracy** trên tập test.
 
 **Stack:** LSTM · XGBoost · Flask API · Laravel 12
 
-- Data collection, preprocessing, labeling, and classification
-- Train/test split and model evaluation
-- End-to-end prediction API integrated with Laravel backend
+---
+
+## Experience
+
+### Lập trình viên — [Bekisoft](https://bekisoft.com/)
+`Dec 2024 – Dec 2025`
+
+Xây dựng và duy trì nhiều dự án production cho khách hàng Nhật Bản và trong nước:
+
+| Project | Highlights |
+|---------|------------|
+| **Ohouse** | Video social network — thiết kế database, RESTful API, phối hợp FE |
+| **NEXS Ecosystem** | Multi-site platform — thiết kế database, viết API theo cụm chức năng, làm rõ nghiệp vụ với khách hàng |
+| **Togismart** | Multi-tenant furniture shop cluster — maintain, xử lý kiến trúc multi-tenant cho nhiều site FE |
+| **Toshokan** (JP) | Survey data platform — dựng backend, viết API, công cụ kiểm thử hiệu năng, hỗ trợ deploy production |
+| **Job Portal Web** (JP) | Job search system — xử lý lỗi, tính năng mới theo phản hồi khách hàng |
+
+### Thực tập sinh — TSO (Tinh Vân Software)
+`Mar 2024 – May 2024`
+
+**Project:** ITC — Hanoi International Transport Corporation website — phân tích nghiệp vụ, xây dựng giao diện landing page
 
 ---
 
@@ -119,6 +132,8 @@ ML pipeline to predict IT students' academic status at Đại học Đại Nam �
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
 
+**Also:** RAG · Knowledge Graph · SHAP · LangChain/LangGraph · Prompt Engineering · AI Guardrails & Prompt-Injection Defense
+
 ### DevOps & Tools
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -136,9 +151,9 @@ ML pipeline to predict IT students' academic status at Đại học Đại Nam �
 
 ## Soft Skills
 
+- Lãnh đạo & quản lý dự án (Leader/PM tại VAIC, VTV AI, Cross-Border AI Summit)
 - Team collaboration and independent delivery
 - Business analysis and time management
-- Problem analysis and practical solution design
 - Client communication and requirement clarification
 
 ---
@@ -147,8 +162,8 @@ ML pipeline to predict IT students' academic status at Đại học Đại Nam �
 
 | Horizon | Focus |
 |---------|-------|
-| **Short term** | Deliver high-quality work, grow in software development and system architecture |
-| **Long term** | Transition toward **AI engineering** and future-ready technologies |
+| **Short term** | Ship production AI features (RAG, agents), deepen system design gắn với AI product |
+| **Long term** | Trở thành **AI Engineer / Applied AI full-stack** |
 
 ---
 
@@ -165,6 +180,6 @@ ML pipeline to predict IT students' academic status at Đại học Đại Nam �
 
 <div align="center">
 
-*Building reliable back-end systems — from APIs to AI-powered solutions.*
+*Building AI-powered systems — from RAG and agents to production ML.*
 
 </div>
