@@ -153,7 +153,7 @@ activities
   .forEach((activity) => {
     const card = document.createElement('button');
     card.type = 'button';
-    card.className = 'activity-thumb-card';
+    card.className = 'activity-thumb-card reveal';
     card.innerHTML = `
       <span class="activity-thumb">${renderThumb(activity)}</span>
       <span class="activity-thumb-info">
@@ -164,6 +164,8 @@ activities
     card.addEventListener('click', () => openModal(activity));
     grid.appendChild(card);
   });
+
+window.initScrollReveal?.(grid);
 
 modalClose.addEventListener('click', closeModal);
 modal.addEventListener('click', (e) => {

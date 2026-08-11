@@ -30,3 +30,29 @@ const observer = new IntersectionObserver(
 );
 
 sections.forEach((section) => observer.observe(section));
+
+function initScrollReveal(root = document) {
+  const elements = root.querySelectorAll('.reveal:not(.is-visible)');
+  if (!elements.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    elements.forEach((el) => el.classList.add('is-visible'));
+    return;
+  }
+
+  const revealObserver = new IntersectionObserver(
+    (entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        obs.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  elements.forEach((el) => revealObserver.observe(el));
+}
+
+window.initScrollReveal = initScrollReveal;
+initScrollReveal();
