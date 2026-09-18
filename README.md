@@ -43,7 +43,7 @@ Mục tiêu: trở thành **AI Engineer / Applied AI full-stack** trong 1–2 n�
 ## AI Training & Activities
 
 **Chương trình đào tạo AI thực chiến Vingroup – Khoá 2**
-Đào tạo chuyên sâu về AI ứng dụng thực tế: thiết kế & xây dựng AI tools/agents, kỹ thuật xử lý dữ liệu, bảo mật AI (guardrails, phòng chống prompt injection). Sản phẩm tốt nghiệp: **MentorMind**. Kết quả: hiện đang thực tập tại Ban Chat AI, Vinsmart Future.
+Đào tạo chuyên sâu về AI ứng dụng thực tế: thiết kế & xây dựng AI tools/agents, kỹ thuật xử lý dữ liệu, bảo mật AI (guardrails, phòng chống prompt injection). Sản phẩm tốt nghiệp: **MentorMind**. Kết quả: hiện đang làm Kĩ sư Ứng dụng AI tại Ban Chat AI, Vinsmart Future.
 
 **Vietnam AI Innovation Challenge (VAIC) 2026** — Leader/PM
 Dẫn dắt đội phát triển **LawVerse** — hệ thống RAG tra cứu & đánh giá rủi ro pháp lý cho ngân hàng.
